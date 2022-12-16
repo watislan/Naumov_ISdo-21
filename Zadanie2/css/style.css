@@ -51,7 +51,7 @@ aside{
     display: flex;
     flex-direction: column;
 }
-nav{
+.aside{
     display: flex;
     float: left;
     justify-content: center;
