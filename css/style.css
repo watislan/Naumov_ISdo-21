@@ -1,0 +1,54 @@
+html{
+    margin: 0;
+    font-family: Arial;
+}
+body{
+    background-color: rgb(73, 73, 73);
+}
+div{
+    padding: 5px;
+    width: 800px;
+    height: 1000px;
+    margin: auto;
+    background-color: rgb(159, 255, 204);
+}
+.Forma{
+    width: 200px;
+    height: 430px;
+    margin: auto;
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+th, td{
+    border: solid 1px black;
+    background-color: aliceblue;
+    width: 50px;
+    height: 30px;
+}
+h1{
+    font-style: italic;
+}
+h2{
+    margin: auto;
+    font-weight: bold;
+}
+h3{
+    text-decoration: underline;
+}
+h4{
+    text-decoration: line-through;
+}
+span{
+    color: blue;
+}
+hr{
+    color: rgb(255, 0, 0);
+}
+form{
+    margin: auto;
+}
+textarea{
+    resize: none;
+}
