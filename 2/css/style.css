@@ -52,7 +52,6 @@ aside{
 }
 .aside{
     display: flex;
-    float: left;
     justify-content: center;
     align-items: center;
     background-color: rgb(74, 74, 74);

@@ -1,0 +1,154 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 18px;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+body{
+    background-color: #0A0F36;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.bg{
+    display: flex;
+    border-radius: 6px;
+    background-color: #2E357A;
+}
+.header{
+    height: 70px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 15px;
+    box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.62);
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+}
+.header_nav_item{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 15px;
+}
+.header_nav_item:hover{
+    color:#D8B863;
+}
+.header_logo{
+    height: 50px;
+}
+.info_item{
+    padding: 15px;
+    align-items: center;
+}
+.info_one{
+    margin-bottom: 20px;
+}
+.info_two{
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+}
+.info_img{
+    min-width: 450px;
+    height: 300px;
+    background-color: white;
+    border-radius: 6px;
+}
+.info_text-one{
+    margin-left: 15px;
+}
+.info_text-two{
+    margin-right: 15px;
+    text-align: right;
+}
+.price{
+    justify-content: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.price_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    background-color: #5362d5;
+    margin: 0 15px;
+    padding: 15px;
+    border-radius: 6px;
+}
+.price_img{
+    width: 100%;
+    height: 220px;
+    background-color: white;
+}
+.price_title{
+    color: black;
+    text-align: center;
+    margin-bottom: 0;
+}
+.price_text{
+    color: black;
+    text-align: center;
+}
+.price_btn{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    background-color: #D8B863;
+    padding-top: 18px;
+}
+.cart{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.cart_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 180px;
+    background-color: white;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.cart_item_img{
+    max-height: 160px;
+}
+.section_display{
+    padding: 30px;
+    height: 440px;
+}
+.one{
+    position: static;
+}
+.two{
+    position: relative;
+    left: 684px;
+}
+.three{
+    position: relative;
+    top: 260px;
+    right: 456px;
+}
+.four{
+    position: relative;
+    top: 260px;
+    left: 228px;
+}
+.five{
+    position: relative;
+    top: 130px;
+    right: 456px;
+}
