@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.main{
+    display: flex;
+    margin-bottom: 120px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+.nav_el{
+    min-width: 20px;
+    min-height: 20px;
+    margin: 0 10px;
+}
+.logo{
+    margin: 0 30px;
+}
+.search, .cart{
+    width: 20px;
+    height: 20px;
+    margin: 5px 20px;
+}
+.search:hover, .cart:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.nav_el_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+}
+.signup, .signin{
+    padding: 5px 20px;
+}
+.signup{
+    background-color: white;
+    color: #156963;
+}
+.signup:hover{
+    color: #0f524d;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.signin{
+    background-color: #156963;
+    color: white;
+}
+.signin:hover{
+    background-color: #0f524d;
+    cursor: pointer;
+}
+.big_img{
+    width: 45%;
+    height: 700px;
+}
+.right_side{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 500px;
+    padding-top: 80px;
+}
+.info_title, .info_text{
+    width: 500px;
+    margin-left: 100px;
+}
+.info_title{
+    font-weight: normal;
+    font-size: 56px;
+    color: #156963;
+    margin-bottom: 20px;
+}
+.info_text{
+    font-size: 18px;
+    opacity: 0.7;
+    line-height: 32px;
+}
+.right_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 125px;
+    padding: 30px;
+}
+.next{
+    background-color: #156963;
+    color: white;
+}
+.next:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.prev{
+    color: #156963;
+}
+.prev:hover {
+    background-color: rgb(215, 215, 215);
+    cursor: pointer;
+}
+.button p{
+    padding-left: 35px;
+    color: rgb(158, 158, 158);
+    font-size: 22px;
+    opacity: 0.7;
+
+}
+.button h3{
+    padding-left: 35px;
+    font-weight: normal;
+    font-size: 28px;
+}
+.inf_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 100px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 20px;
+    margin: 0 10px;
+    border: 1px solid rgb(227, 227, 227);
+}
+.card h4{
+    display: flex;
+    align-items: center;
+    color: #156963;
+    font-weight: 700;
+    width: 150px;
+    max-height: 50px;
+}
+.card p{
+    width: 210px;
+    height: 90px;
+    font-size: 14px;
+    opacity: 0.6;
+    line-height: 16px;
+}
+.card img{
+    position: relative;
+    max-height: 50px;
+    max-width: 50px;
+    margin: 0 20px 15px 0;
+}
+.plants_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.plants_page_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 15px;
+}
+.plants_page_head h4{
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: 20px;
+}
+select{
+    padding: 8px 12px;
+    background-color: white;
+    border: 1px solid #E0E0E0;;
+}
+.hr_1{
+    border: 1px solid #E0E0E0;
+    margin-bottom: 20px;
+}
+.plants_page_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+.plant_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+.plant_card:hover{
+    background-color: rgb(215, 212, 212);
+    cursor: pointer;
+}
+.plant_card_img{
+    background: #F3F4F6;
+    width: 217px;
+    height: 217px;
+}
+.plant_card_title{
+    font-weight: lighter;
+    margin: 10px 0;
+}
+.plant_card_price{
+    font-weight: bold;
+}
+.text_page{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+.text_page_info{
+    width: 522px;
+    height: 268px;
+}
+.text_page_title, .text_page_text{
+    margin: 0 20px;
+}
+.text_page_title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.text_page_text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #2C1500;
+    opacity: 0.7;
+}
+.img_1{
+    margin-left: 165px;
+}
+.img_2{
+    margin-top: 141px;
+}
+.visit_adv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    height: 360px;
+    background: #f3f4f6;
+    margin-bottom: 80px;
+}
+.visit_adv_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    height: 100px;
+    margin: 100px 0 0 100px;
+}
+.visit_adv_title{
+    width: 600px;
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 30px;
+}
+.visit_adv_btn{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #156963;
+    font-size: 14px;
+    width: 140px;
+    padding: 10px;
+}
+.visit_adv_btn:hover{
+    background-color:#0f524d;
+    cursor: pointer;
+}
+.hr_2{
+    opacity: 0.3;
+    border: 1px solid #156963;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding: 60px 100px;
+}
+.footer_elements{
+    display: flex;
+    flex-direction: column;
+}
+.first h5{
+    font-size: 24px;
+    color: #156963;
+    letter-spacing: 0.05em;
+}
+.first h6{
+    font-size: 16px;
+    margin: 20px 0;
+}
+.first p{
+    width: 300px;
+    font-size: 14px;
+    color: #4F4F4F;
+}
+.second h6{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.second p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.second p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.third h6{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.third form, input{
+    width: 200px;
+    height: 28px;
+    margin-bottom: 20px;
+}
+.third_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #156963;
+    color: white;
+    font-size: 12px;
+    height: 30px;
+    width: 60px;
+    border-radius: 3px;
+}
+.third_btn:hover{
+    background-color:#0f524d;
+    cursor: pointer;
+}
